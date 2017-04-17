@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['../components/backDrop/backDrop.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Welcome to School-Book-Now';
 }
