@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from '../superClass/backDrop';
 import { HeaderComponent } from '../superClass/header';
+import { NavBarComponent } from '../superClass/navBar';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

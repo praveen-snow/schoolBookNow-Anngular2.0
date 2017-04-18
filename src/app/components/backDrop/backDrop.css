@@ -1,7 +1,7 @@
 .sbw-backGround{
-    background: lightblue;
+    background: #f5f5f5;
     position: relative;
-    height: 91vh;
+    height: calc(100vh - 80px);
     width: 100%;
     top: 0;
 }
