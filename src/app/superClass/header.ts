@@ -6,7 +6,7 @@ import {Component} from "@angular/core";
     styleUrls: ['../components/header/header.css']
 })
 export class HeaderComponent{
-    textTest = 'School Book';
+    appTitle = 'schoolbook';
 }
 
 //'<nav class="sbw-header-navigator"><h1>{{textTest}}</h1></nav>',
