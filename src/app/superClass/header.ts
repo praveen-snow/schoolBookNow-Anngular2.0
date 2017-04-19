@@ -3,7 +3,7 @@ import {Component} from "@angular/core";
 @Component({
     selector: 'app-header',
     template: require('../components/header/header.html'),
-    styleUrls: ['../components/header/header.css']
+    styleUrls: ['../components/header/header.scss']
 })
 export class HeaderComponent{
     appTitle = 'schoolbook';
