@@ -4,4 +4,12 @@
     height: calc(100vh - 100px);
     width: 100%;
     top: 0;
+    .sbw-nav-wrapper{
+        float: left;
+        width: 15%;
+    }
+    .sbw-ui-route-wrapper{
+        float: right;
+        width: 84%;
+    }
 }

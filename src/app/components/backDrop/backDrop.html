@@ -1,9 +1,13 @@
 <!-- backDrop component -->
 
-<app-header>
-</app-header>
+<app-header></app-header>
 <div class="sbw-backGround">
-  <app-navBar>
-    {{title}}
-  </app-navBar>
+  <div class="sbw-nav-wrapper">
+    <app-navBar>
+        {{title}}
+    </app-navBar>
+  </div>
+  <div class="sbw-ui-route-wrapper">
+    <router-outlet></router-outlet>
+  </div>
 </div>
