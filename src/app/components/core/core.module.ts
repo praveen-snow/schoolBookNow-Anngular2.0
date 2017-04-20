@@ -2,7 +2,7 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { SideNavModule } from '../components/sideNavbar/sideNavbar.module';
+import { SideNavModule } from './sideNavbar/sideNavbar.module';
 
 @NgModule({
   imports: [

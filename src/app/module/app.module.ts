@@ -2,19 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule, Routes } from '@angular/router';
 //compontent imports
 import { AppComponent } from '../components/backDrop/backDrop';
 import { HeaderComponent } from '../components/header/header';
-import { studentBoardComponent } from '../components/stdDashBoard/studentDashBoard';
-import { CoreModule } from './core.module';
+import { CoreModule } from '../components/core/core.module';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    studentBoardComponent
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

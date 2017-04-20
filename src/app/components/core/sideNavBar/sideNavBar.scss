@@ -1,5 +1,5 @@
 .sbw-side-navbar{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
   background: #eee;
     .sbw-user-block{
         text-align: center;
@@ -40,15 +40,12 @@
                     text-decoration: none;
                     color: #333;
                     cursor: pointer;
-                    text-transform: uppercase;
+                    margin-left: 9em;
                 }
             }
             .sbw-user-action-list:hover{
                 background-color: #fff;
             }
-           .sbw-user-action-list:active{
-               background-color: #81c04d;
-          }
         }
     }
 }
