@@ -10,13 +10,15 @@
     .wrapper{
         width: 100%;
         .leftWrapper{
-            width:50%;
+            width:15%;
             float: left;
         }
         .rightWrapper{
-            width:50%;
+            width: 85%;
             float: right;
             text-align: right;
+            height: 99px;
+            background-color: #fff;
         }
     }
 }

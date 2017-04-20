@@ -2,8 +2,8 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: 'app-navBar',
-    template: require('../components/sideNavBar/sideNavBar.html'),
-    styleUrls: ['../components/sideNavBar/sideNavBar.scss']
+    template: require('./sideNavBar.html'),
+    styleUrls: ['./sideNavBar.scss']
 })
 export class NavBarComponent{
     textTest = 'School Book';

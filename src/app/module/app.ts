@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 //compontent imports
-import { AppComponent } from '../superClass/backDrop';
-import { HeaderComponent } from '../superClass/header';
-import { NavBarComponent } from '../superClass/navBar';
-import { studentBoardComponent } from '../superClass/studentDashBoard';
+import { AppComponent } from '../components/backDrop/backDrop';
+import { HeaderComponent } from '../components/header/header';
+import { NavBarComponent } from '../components/sideNavBar/sideNavBar';
+import { studentBoardComponent } from '../components/stdDashBoard/studentDashBoard';
 
 const appRoutes: Routes = [
   { path: 'sbw-student/dashboard', component: studentBoardComponent },

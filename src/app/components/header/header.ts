@@ -2,8 +2,8 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: 'app-header',
-    template: require('../components/header/header.html'),
-    styleUrls: ['../components/header/header.scss']
+    template: require('./header.html'),
+    styleUrls: ['./header.scss']
 })
 export class HeaderComponent{
     appTitle = 'schoolbook';
