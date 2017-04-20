@@ -6,26 +6,22 @@ import { RouterModule, Routes } from '@angular/router';
 //compontent imports
 import { AppComponent } from '../components/backDrop/backDrop';
 import { HeaderComponent } from '../components/header/header';
-import { NavBarComponent } from '../components/sideNavBar/sideNavBar';
 import { studentBoardComponent } from '../components/stdDashBoard/studentDashBoard';
-
-const appRoutes: Routes = [
-  { path: 'sbw-student/dashboard', component: studentBoardComponent },
-];
-
+import { CoreModule } from './core.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavBarComponent,
     studentBoardComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes)
+    AppRoutingModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
