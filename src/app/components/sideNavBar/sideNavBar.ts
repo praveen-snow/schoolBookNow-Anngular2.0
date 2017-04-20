@@ -8,7 +8,7 @@ import {Component} from "@angular/core";
 export class NavBarComponent{
     textTest = 'School Book';
     userProfileImg = '../../assets/images/praveen.jpg';
-    userProfileName = 'Praveen Chundi';
+    userProfileName = 'Rahul Rayineni';
 }
 
 //'<nav class="sbw-header-navigator"><h1>{{textTest}}</h1></nav>',
