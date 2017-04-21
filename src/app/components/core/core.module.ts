@@ -3,15 +3,16 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { SideNavModule } from './sideNavbar/sideNavbar.module';
+import { headerModule } from './header/header.module';
 
 @NgModule({
   imports: [
     CommonModule, FormsModule, RouterModule,
-    SideNavModule
+    SideNavModule,headerModule
   ],
   exports: [
     CommonModule, FormsModule, RouterModule,
-    SideNavModule
+    SideNavModule,headerModule
   ],
   declarations: [],
   providers: []

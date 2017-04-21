@@ -4,14 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 //compontent imports
 import { AppComponent } from '../components/backDrop/backDrop';
-import { HeaderComponent } from '../components/header/header';
 import { CoreModule } from '../components/core/core.module';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
