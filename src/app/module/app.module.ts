@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-//compontent imports
+// compontent imports
 import { AppComponent } from '../components/backDrop/backDrop';
 import { CoreModule } from '../components/core/core.module';
 import { AppRoutingModule } from './app-routing.module';

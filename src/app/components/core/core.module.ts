@@ -8,11 +8,11 @@ import { headerModule } from './header/header.module';
 @NgModule({
   imports: [
     CommonModule, FormsModule, RouterModule,
-    SideNavModule,headerModule
+    SideNavModule, headerModule
   ],
   exports: [
     CommonModule, FormsModule, RouterModule,
-    SideNavModule,headerModule
+    SideNavModule, headerModule
   ],
   declarations: [],
   providers: []

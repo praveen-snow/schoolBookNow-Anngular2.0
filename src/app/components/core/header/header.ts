@@ -1,4 +1,4 @@
-import {Component} from "@angular/core";
+import {Component} from '@angular/core';
 
 @Component({
     selector: 'app-header',
@@ -9,4 +9,4 @@ export class HeaderComponent{
     appTitle = 'SCHOOLBOOK';
 }
 
-//'<nav class="sbw-header-navigator"><h1>{{textTest}}</h1></nav>',
+// '<nav class="sbw-header-navigator"><h1>{{textTest}}</h1></nav>',

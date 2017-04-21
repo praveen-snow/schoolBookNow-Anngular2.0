@@ -11,7 +11,7 @@ import { PreloadAllModules, Routes, RouterModule } from '@angular/router';
 * 3. Change the module's default route path from '' to 'pathname'
 *****************************************************************/
 const routes: Routes = [
-  { path: 'sbw-student/dashboard', loadChildren: 'app/components/stdDashBoard/stdDashBoard.module#studentDashBoardModule' }
+  { path: 'sbw-student/dashboard', loadChildren: 'app/components/stdDashBoard/stdDashBoard.module#StudentDashBoardModule' }
 ];
 
 @NgModule({

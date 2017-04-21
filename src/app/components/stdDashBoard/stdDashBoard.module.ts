@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 
-import { studentDashRoutingModule, routedComponents }   from './stdDashBoard-routing.module';
+import { StudentDashRoutingModule, routedComponents } from './stdDashBoard-routing.module';
 
 @NgModule({
-  imports: [studentDashRoutingModule],
+  imports: [StudentDashRoutingModule],
   declarations: [routedComponents]
 })
-export class studentDashBoardModule { }
+export class StudentBoardComponent { }
