@@ -6,4 +6,4 @@ import { StudentDashRoutingModule, routedComponents } from './stdDashBoard-routi
   imports: [StudentDashRoutingModule],
   declarations: [routedComponents]
 })
-export class StudentBoardComponent { }
+export class StudentDashBoardModule { }
