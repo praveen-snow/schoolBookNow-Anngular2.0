@@ -1,3 +1,4 @@
+/*
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SideNavBarComponent } from './sideNavBar';
@@ -9,4 +10,4 @@ import {RouterModule} from '@angular/router';
   declarations: [SideNavBarComponent],
   providers: []
 })
-export class SideNavModule {}
+export class SideNavModule {}*/

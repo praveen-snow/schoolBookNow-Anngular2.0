@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, Routes, RouterModule } from '@angular/router';
-
+import { SigninComponent } from '../core/signin/signin';
 /***************************************************************
 * Lazy Loading to Eager Loading
 *
@@ -12,6 +12,9 @@ import { PreloadAllModules, Routes, RouterModule } from '@angular/router';
 *****************************************************************/
 const routes: Routes = [
   { path: 'sbw-student/dashboard', loadChildren: 'app/components/stdDashBoard/stdDashBoard.module#StudentDashBoardModule' }
+  // { path: 'sbw-student/dashboard', loadChildren: 'app/components/student-dash-board/student-dash-board.module#studentDashBoardModule'},
+  {path: '', redirectTo: 'signin', pathMatch: 'full'},
+  {path: 'signin', component: SigninComponent }
 ];
 
 @NgModule({
