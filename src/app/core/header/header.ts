@@ -5,8 +5,8 @@ import {Component} from '@angular/core';
     template: require('./header.html'),
     styleUrls: ['./header.scss']
 })
-export class HeaderComponent{
-    appTitle = 'SCHOOLBOOK';
+export class HeaderComponent {
+    appTitle = 'schoolbook';
 }
 
 // '<nav class="sbw-header-navigator"><h1>{{textTest}}</h1></nav>',

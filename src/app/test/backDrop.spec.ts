@@ -1,7 +1,7 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from '../components/backDrop/backDrop';
+import { AppComponent } from '../core/back-drop/backDrop';
 
 describe('AppComponent', () => {
   beforeEach(() => {

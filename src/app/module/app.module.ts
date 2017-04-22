@@ -2,10 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { CoreModule } from '../core/core.module';
 // compontent imports
-import { AppComponent } from '../components/backDrop/backDrop';
-import { CoreModule } from '../components/core/core.module';
 import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from '../core/back-drop/backDrop';
+
 
 @NgModule({
   declarations: [
@@ -15,8 +16,8 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     FormsModule,
     HttpModule,
+    CoreModule,
     AppRoutingModule,
-    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

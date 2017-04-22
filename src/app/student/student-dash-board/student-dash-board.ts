@@ -9,7 +9,7 @@ import { Component,
 
 @Component({
   selector: 'app-std-board',
-  template: require('./stdDashBoard.html'),
+  template: require('./student-dash-board.html'),
   styleUrls: ['./stdDashBoard.scss']
 })
 export class StudentBoardComponent {
