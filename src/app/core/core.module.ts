@@ -1,6 +1,6 @@
 import { NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {SideNavBarComponent} from './side-nav-bar/sideNavBar';
+import {SideNavBarComponent} from './side-navbar/side-navbar';
 import {SigninComponent} from './signin/signin';
 import {HeaderComponent} from './header/header';
 

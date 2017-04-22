@@ -9,8 +9,8 @@ import { Component,
 
 @Component({
   selector: 'app-std-board',
-  template: require('./student-dash-board.html'),
-  styleUrls: ['./stdDashBoard.scss']
+  template: require('./student-dashboard.html'),
+  styleUrls: ['./student-dashboard.scss']
 })
 export class StudentBoardComponent {
   title = 'Welcome to School-Book-Now';

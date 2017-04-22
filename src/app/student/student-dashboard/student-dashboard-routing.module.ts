@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { StudentBoardComponent } from './student-dash-board';
+import { StudentBoardComponent } from './student-dashboard';
 
 const routes: Routes = [
   { path: '', component: StudentBoardComponent },

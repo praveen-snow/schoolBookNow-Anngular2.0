@@ -2,10 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { CoreModule } from '../core/core.module';
+import { CoreModule } from './core/core.module';
 // compontent imports
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from '../core/back-drop/backDrop';
+import { AppComponent } from './core/back-drop/back-drop';
 
 
 @NgModule({

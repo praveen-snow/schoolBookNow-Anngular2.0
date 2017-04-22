@@ -2,8 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'app-nav-bar',
-    template: require('./side-nav-bar.html'),
-    styleUrls: ['./sideNavBar.scss']
+    template: require('./side-navbar.html'),
+    styleUrls: ['./side-navbar.scss']
 })
 
 export class SideNavBarComponent {
