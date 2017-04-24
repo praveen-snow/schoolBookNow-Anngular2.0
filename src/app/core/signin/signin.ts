@@ -21,12 +21,7 @@ export class SigninComponent implements OnInit {
   userProfileName = 'Praveen Chundi';
   users: User[];
   constructor(private singInService: SignInServices) { }
-
   ngOnInit() {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
-    // this.singIn = this.
-
     this.singInService.checkUser()
       .subscribe(users => this.users = users);
   }
