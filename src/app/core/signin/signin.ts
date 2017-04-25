@@ -5,7 +5,7 @@
 import { Component, OnInit , Input} from '@angular/core';
 import { SignInServices } from './signin.service';
 import { AppAPI } from 'app/api/app.api';
-import { User, SignIn } from './signin.model';
+import { User, SignIn, Response } from './signin.model';
 
 @Component({
   moduleId: module.id,
@@ -22,6 +22,7 @@ export class SigninComponent implements OnInit {
   @Input() signIn: SignIn;
   editUser: SignIn = <SignIn>{};
   users: User[];
+  response: Response = <Response>{};
   constructor(private singInService: SignInServices) { }
   ngOnInit() {
     this.singInService.checkUser()
@@ -30,17 +31,14 @@ export class SigninComponent implements OnInit {
   private setEditCharacter(signIn: SignIn) {
     if (signIn) {
       this.signIn = signIn;
-      //this.editCharacter = this.entityService.clone(this.character);
     }
   }
   getIn() {
     const userDetails = this.editUser;
-    if (userDetails.userId === null || userDetails.passCode === null) {
-      return;
+    if ( userDetails.userId || userDetails.passCode ) {
+      this.singInService.signUpUsers(userDetails).subscribe(response => this.response = response);
+      console.log(this.response);
     }
-    console.log(userDetails);
-    // this.characterService.updateCharacter(character)
-    //   .subscribe(() => this.toastService.activate(`Successfully saved ${character.name}`));
   }
 }
 
@@ -67,4 +65,4 @@ export class SigninComponent implements OnInit {
       transition('inactive => active', animate('100ms ease-in')),
       transition('active => inactive', animate('100ms ease-out'))
     ])*/
-  //]
+  // ]

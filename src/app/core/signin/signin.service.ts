@@ -9,4 +9,10 @@ export class SignInServices {
         const usersList = this.appAPI.fetchGetData(endPoint);
         return usersList;
     }
+
+    signUpUsers(req) {
+        const endPoint = 'setuser';
+        const res = this.appAPI.fetchPostData(endPoint, req);
+        return res;
+    }
 }

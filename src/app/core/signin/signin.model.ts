@@ -7,3 +7,7 @@ export class SignIn {
   userId: string;
   passCode: string;
 }
+
+export class Response {
+    answer: number;
+}
