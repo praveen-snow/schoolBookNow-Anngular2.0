@@ -31,4 +31,19 @@
   <li *ngFor="let user of users">
     {{user.passCode}}
   </li>
+
 </ul>
+
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+  <label class="mdl-textfield__label" for="nametext">User Id</label>
+  <input type="text" id="nametext" class="mdl-textfield__input" [(ngModel)]="editUser.userId" />
+</div>
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+  <label class="mdl-textfield__label" for="nametext">Passcode</label>
+  <input type="text" id="nametext" class="mdl-textfield__input" [(ngModel)]="editUser.passCode" />
+</div>
+
+ <button class="dashboard-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect
+      mdl-button--accent" (click)="getIn()">Sign In</button>
+
+<!--[(ngModel)]="editCharacter.name"-->
