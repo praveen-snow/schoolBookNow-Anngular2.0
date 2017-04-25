@@ -1,29 +1,28 @@
-<!-- header component -->
-
-<!--<nav class="sbw-header-navigator">
-  <div class="wrapper">
-    <div class="leftWrapper">
-      <i class="fa fa-ravelry" aria-hidden="true"></i>
-      <a class="navbar-brand">schoolbook</a>
-    </div>
-    <div class="rightWrapper">
-      <ul class="nav navbar-nav pull-right toolbar">
-
-        <li class="dropdown hidden-xs">
-          <a href class="dropdown-toggle" dropdown-toggle>
-            <i class="glyphicon glyphicon-envelope"></i><span class="badge badge-danger">5</span>
-          </a>
-        </li>
-
-        <li class="dropdown">
-          <a href dropdown-toggle class="dropdown-toggle">
-            <i class="glyphicon glyphicon-globe"></i><span class="badge badge-indigo">6</span>
-          </a>
-        </li>
-      </ul>
-    </div>
+<div class="signup-container">
+  <div class="signup-content">
+    <form>
+      <div class="row">
+      <div class="col-md-6">
+      <input class="form-control signup-form-control" placeholder="Email">
+      </div>
+      <div class="col-md-6">
+      <input class="form-control signup-form-control" placeholder="Password">
+      </div>
+      </div>
+      <div class="row" [:flyInOut]="'in'" ng-if="section">
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" placeholder="First Name">
+        </div>
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="row mt30">
+        <div class="col-md-12">
+      <button type="button" class="btn btn-default btn-block sign-up-button">SIGN UP FOR FREE</button>
+      <button type="button" class="btn btn-default" (click)="updateState()" [@heroState]="state">Click Me!</button>
+      </div>
+      </div>
+    </form>
   </div>
-</nav>-->
-
-
-
+</div>

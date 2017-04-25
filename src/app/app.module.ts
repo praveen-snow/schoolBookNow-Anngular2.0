@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { CoreModule } from './core/core.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 // compontent imports
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './core/back-drop/back-drop';
@@ -18,6 +20,7 @@ import { AppComponent } from './core/back-drop/back-drop';
     HttpModule,
     CoreModule,
     AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
