@@ -37,7 +37,6 @@ export class SigninComponent implements OnInit {
     const userDetails = this.editUser;
     if ( userDetails.userId || userDetails.passCode ) {
       this.singInService.signUpUsers(userDetails).subscribe(response => this.response = response);
-      console.log(this.response);
     }
   }
 }

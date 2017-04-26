@@ -9,5 +9,7 @@ export class SignIn {
 }
 
 export class Response {
-    answer: number;
+    status: string;
+    errorDesc: string;
+    statusCode: number;
 }
